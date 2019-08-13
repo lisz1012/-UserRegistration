@@ -1,0 +1,2 @@
+
+create table user (id int auto_increment, username varchar(20) not null unique, password varchar(20) not null, email varchar(20), phone_number varchar(15), primary key (id)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
